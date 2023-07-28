@@ -62,9 +62,8 @@ button {
   margin: 20px;
 }
 
-table {
+table, th, tr{
   border: 1px solid;
-  border-collapse: collapse;
   padding: 20px;
   margin: 20px;
 }
