@@ -62,10 +62,11 @@ font-size: 40px;
 margin: 20px;
 }
 
-table, th, td {
-
+table {
+  border: 1px solid;
+  border-collapse: collapse;
   padding: 20px;
-margin: 20px;
+  margin: 20px;
 }
 
 a {
