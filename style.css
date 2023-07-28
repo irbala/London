@@ -76,7 +76,10 @@ a {
   padding: 5px;
 }
 
-
+th {
+  background-color: #1F232C;
+  color: white;
+}
 
 
 footer { 
