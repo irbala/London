@@ -6,15 +6,15 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   font-size: 20px;
   font-family: Helvetica;
   color: #1F232C;
-padding:0px;
-margin:0px;
-text-align:center;
+  padding:0px;
+  margin:0px;
+  text-align:center;
 }
 
 #page-wrap {
-    width:100%
-text-align: center;
-margin: 0 auto;
+  width:100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 
@@ -31,7 +31,7 @@ img {
 
 button {
   color: white;
-background-color: #83746E;
+  background-color: #83746E;
   align-items: center;
   appearance: none;
   border-radius: 4px;
@@ -40,7 +40,7 @@ background-color: #83746E;
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-font-size: 40px;
+  font-size: 40px;
   height: 100px;
   width: 200px;
   justify-content: center;
@@ -59,7 +59,7 @@ font-size: 40px;
   touch-action: manipulation;
   vertical-align: middle;
   will-change: transform,opacity;
-margin: 20px;
+  margin: 20px;
 }
 
 table {
@@ -70,7 +70,7 @@ table {
 }
 
 a {
-color: #1F232C;
+  color: #1F232C;
   background-color: white;
   padding: 5px;
 }
