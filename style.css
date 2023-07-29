@@ -57,7 +57,6 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: middle;
   will-change: transform,opacity;
   margin: 20px;
 }
