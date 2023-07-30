@@ -10,6 +10,8 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   margin:0px;
   text-align:center;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #page-wrap {
