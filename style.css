@@ -80,6 +80,11 @@ th {
   color: white;
 }
 
+#icon {
+  width: 35px;
+
+}
+
 
 footer { 
   clear: both;
