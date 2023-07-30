@@ -92,18 +92,11 @@ th {
 
 .unordered {
   margin: auto;
-  width: 50%;
-  padding: 10px;
-
+display: flex;
 }
 
-li {
+ul li {
   list-style-type: circle;
-  display:inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 
