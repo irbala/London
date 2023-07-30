@@ -10,9 +10,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   margin:0px;
   text-align:center;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-direction: row;
+
 }
 
 #page-wrap {
@@ -94,22 +92,13 @@ th {
   background-color: transparent;
 }
 
-/* .unordered {
-  text-align: center;
-  display: flex;
-
-  position:absolute;
-  width:100px;
-  height:100px;
-  left:50%;
-  top:50%;
-  margin-left:-50px;
-  margin-top:-50px;
-}
-*/
 
 ul li {
   list-style-type: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
 }
 
 li {
@@ -122,8 +111,6 @@ li {
 
 
 footer { 
-  flex-direction: column;
-  display: flex;
   clear: both;
   padding-bottom: 0;
   text-align: center;
