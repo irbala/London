@@ -67,6 +67,7 @@ button:hover {
 }
 
 table, th, tr{
+  width:100%;
   padding: 20px;
   margin: 20px;
   text-align: center;
@@ -96,7 +97,6 @@ th {
 ul li {
   list-style-type: none;
   flex-direction: column;
-  justify-content: space-evenly;
   flex-direction: row;
   display: flex;
 }
