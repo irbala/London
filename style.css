@@ -91,6 +91,7 @@ th {
 }
 
 .unordered {
+  text-align: center;
   margin: auto;
 display: flex;
 }
