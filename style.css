@@ -20,7 +20,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 }
 
 #page-wrap {
-      display: flex;
+
   width:100%;
   text-align: center;
   margin: 0 auto;
@@ -28,7 +28,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 
 .header {
-    display: flex;
+
   padding: 0.5px;
   text-align: center;
   background: rgba(255, 255, 255, 0.3);
