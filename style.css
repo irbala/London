@@ -69,6 +69,7 @@ button:hover {
 
 table {
   width:100%;
+  margin: auto;
 }
 
   table, th, tr{
