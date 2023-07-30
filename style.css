@@ -90,16 +90,26 @@ th {
   background-color: transparent;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.unordered {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
 }
 
-ul li {
+ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: inline-block;
 }
+
+li {
+  margin: 0;
+  float: left;
+  padding: 2px 5px;  
+}
+
 
 
 footer { 
