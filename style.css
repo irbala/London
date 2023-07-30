@@ -67,6 +67,7 @@ button:hover {
 table, th, tr{
   padding: 20px;
   margin: 20px;
+  text-align: center;
 }
 
 a {
@@ -76,6 +77,7 @@ a {
 }
 
 th {
+  text-align: center;
   background-color: #1F232C;
   color: white;
 }
