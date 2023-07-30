@@ -86,6 +86,9 @@ th {
   width: 35px;
 
 }
+#list {
+  background-color: transparent;
+}
 
 
 footer { 
