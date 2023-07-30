@@ -97,23 +97,13 @@ th {
 
 }
 
-ul {
-  list-style-type: circle;
-  margin: 0;
-  padding: 0;
-}
-
 li {
+  list-style-type: circle;
   display:inline-block;
-  width: auto;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; 
-  white-space: nowrap;
 }
 
 
