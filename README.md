@@ -3,8 +3,6 @@ Travel Planner
 https://irbala.github.io/London/
 كوفيات وحلويات :-
 
-Fabrique -> مخبز 
-Buns from home 
 Donutelier
 Humble crumble 
 Creme 
