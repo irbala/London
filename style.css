@@ -35,28 +35,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   color: #1F232C;
 }
 
-.search-bar {
-  width: 200px;
-  margin: 10px auto;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.search-bar input {
-  width: 100%;
-  border: none;
-  padding: 5px;
-  font-size: 16px;
-}
-
-.search-bar button {
-  background-color: #2196F3;
-  color: white;
-  border: none;
-  padding: 5px;
-  cursor: pointer;
-}
-
 img {
   width: 100px;
 }
