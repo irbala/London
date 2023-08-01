@@ -104,8 +104,6 @@ table {
   width:100%;
   margin: auto;
   text-align: center;
-  border-collapse: separate;
-  border-spacing: 20px;
 }
 
  th, tr{
