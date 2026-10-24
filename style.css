@@ -1,7 +1,7 @@
 /* Resetting default margin, padding, and overflow */
 html, body {
     max-width: 100%;
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -23,6 +23,7 @@ body {
 /* Styling for the main content wrapper */
 #page-wrap {
     width: 100%;
+    max-width: 1100px;
     text-align: center;
     margin: 0 auto;
 }
@@ -35,9 +36,28 @@ body {
     color: #1F232C;
 }
 
-/* Styling for images in the place tables */
-table img {
+/* Styling for images */
+img {
     width: 100px;
+}
+
+/* Place photos: same square size so the table rows line up */
+table td > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centred column that holds each page's table */
+.content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 
 /* Styling for navigation buttons (links styled as buttons) */
