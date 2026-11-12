@@ -1,20 +1,27 @@
-London - Travel Planner Web App
+# London Trip Planner
 
-Click here to visit the web app: https://irbala.github.io/London/
+**Live site:** https://irbala.github.io/London/
 
-Description:
+An Arabic (right-to-left) trip planner I made for a family trip to London and Brighton. Each page lists places as cards, and every place has a button for its Instagram page and a button that opens it in Google Maps. The home page shows the London weather.
 
-Explore the heart of London with this sleek and user-friendly Travel Planner web app! 
-Designed to help users explore their perfect london locations, this project showcases my skills in crafting responsive, visually appealing web experiences using HTML, JS and CSS.
+## Pages
 
-This app highlights my ability to organize information effectively while maintaining a clean and modern design—perfect for anyone looking to dive into the vibrant culture, landmarks, and hidden gems of London.
-Through this project, I demonstrate strong attention to detail, a passion for intuitive UI/UX, and expertise in front-end development techniques.
+| Page | What's on it |
+|---|---|
+| `index.html` | Menu and weather |
+| `coffee.html` | Cafes and desserts |
+| `food.html` | Restaurants |
+| `shopping.html` | Markets and shops |
+| `entertainment.html` | Things to do |
+| `brighton.html` | Places to eat and sights in Brighton |
 
-Key Features:
+## How it's built
 
-- Intuitive layout for seamless navigation
-- Stunning visuals powered by CSS styling
-- Fully responsive design for all devices
-- Feel free to explore the code or suggest improvements—I’m always open to feedback!
+- HTML and CSS, with one stylesheet (`style.css`) shared by every page
+- Place cards sit in two columns on wide screens and one column on phones
+- The Instagram and map icons are two small SVG files in `img/`
+- The only JavaScript is the weather widget from Tomorrow.io on the home page
 
-Tech Stack: HTML, CSS, JS
+## Run it locally
+
+Download or clone the repo and open `index.html` in a browser.

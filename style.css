@@ -36,22 +36,7 @@ body {
     color: #1F232C;
 }
 
-/* Styling for images */
-img {
-    width: 100px;
-}
-
-/* Place photos: same square size so the table rows line up */
-table td > img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Centred column that holds each page's table */
+/* Centred column that holds each page's list of places */
 .content {
     width: 100%;
     max-width: 900px;
@@ -89,50 +74,93 @@ table td > img {
     box-shadow: 0px 0px 0px 0px #5B514D;
 }
 
-/* Styling for tables */
-table {
-    width: 100%;
-    margin: auto;
-    text-align: center;
+/* Places: one card each. Two columns on wide screens, one on phones */
+.places {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 12px;
+    list-style: none;
+    margin: 24px 0;
+    padding: 0;
 }
 
-th, tr {
-    padding: 20px;
-    margin: 20px;
+.place {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    text-align: left;
 }
 
-/* Styling for links */
-a {
-    color: #1F232C;
-    background-color: white;
-    padding: 5px;
+.place-photo {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
 }
 
-/* Styling for table headers */
-th {
-    text-align: center;
-    background-color: #1F232C;
-    color: white;
+.place-name {
+    flex: 1;
+    font-size: 1.05rem;
+    font-weight: 700;
 }
 
-/* Styling for icons */
-.icon {
-    width: 35px;
+.place-links {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
 }
 
-/* Styling for lists */
-.list {
-    background-color: transparent;
+/* Round Instagram and map buttons, big enough to tap easily */
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid rgba(31, 35, 44, 0.15);
+    border-radius: 50%;
+    transition: background-color 0.15s ease;
 }
 
-ul li {
-    list-style-type: none;
-    flex-direction: column;
-    flex-direction: row;
+.icon-link:hover {
+    background: #efe9e6;
 }
 
-li {
-    padding: 20px;
+.icon-link:focus-visible {
+    outline: 3px solid #1F232C;
+    outline-offset: 2px;
+}
+
+.icon-link img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Brighton sights: simple list of names */
+h2 {
+    margin: 32px 0 12px;
+    font-size: 1.4rem;
+}
+
+.sights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 0 0 24px;
+    padding: 0;
+}
+
+.sights li {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 999px;
 }
 
 /* Styling for tomorrow class */
@@ -157,11 +185,6 @@ footer {
 }
 
 @media (max-width: 400px) {
-    table {
-        margin: auto;
-        text-align: center;
-    }
-    
     body {
         width: 100%;
         margin: 0;
